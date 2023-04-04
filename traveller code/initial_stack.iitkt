@@ -1,0 +1,28 @@
+start, 0, pronite_2
+pronite_2, 0, kd_3
+kd_3, 0, oat_stage[1]
+oat_stage, 1, kd_3
+kd_3, 1, oat_stage[1]
+oat_stage, 2, debug
+debug, 2, finish
+
+
+start, 0, rm_1
+rm_1, 0, rm_2
+rm_2, 0, rm_3
+rm_3, 0, oat_stage[1]
+oat_stage, 1, rm_1
+rm_1, 1, rm_2
+rm_2, 1, rm_3
+rm_3, 1, oat_stage[1]
+oat_stage, 2, rm_1
+rm_1, 2, rm_2
+rm_2, 2, rm_3
+rm_3, 2, oat_stage[1]
+oat_stage, 3, rm_1
+rm_1, 3, rm_2
+rm_2, 3, oat_stage[1]
+oat_stage, 4, rm_1
+rm_1, 4, rm_2
+rm_2, 4, pronite_2
+pronite_2, 4, finish

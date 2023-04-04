@@ -1,0 +1,7 @@
+start, 0, nankari_gate_out_1
+nankari_gate_out_1, 0, kd_1
+kd_1, 0, kd_2
+kd_2, 0, kd_3
+kd_3, 0, oat_stage[1]
+oat_stage, 1, debug
+debug, 1, finish

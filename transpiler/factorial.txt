@@ -1,0 +1,11 @@
+1 10
+if
+    dup
+    cycle
+    mul
+    rcycle
+    1
+    sub
+fi
+pop
+output

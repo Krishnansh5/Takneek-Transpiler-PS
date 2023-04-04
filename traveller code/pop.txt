@@ -1,0 +1,6 @@
+start, 0, hall_13_2
+hall_13_2, 0, kd_2
+kd_2, 0, kd_1
+kd_1, 0, oat_stage[1]
+oat_stage, 1, printVector
+printVector, 1, finish

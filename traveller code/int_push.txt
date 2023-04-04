@@ -1,0 +1,19 @@
+// set mem[mem1] to 5
+
+start, 0, oat_stairs_1
+oat_stairs_1, 0, oat_stage[1]
+oat_stage, 1, oat_stairs_1
+
+oat_stairs_1, 1, oat_stage[1]
+oat_stage, 2, oat_stairs_1
+
+oat_stairs_1, 2, oat_stage[1]
+oat_stage, 3, oat_stairs_1
+
+oat_stairs_1, 3, oat_stage[1]
+oat_stage, 4, oat_stairs_1
+
+oat_stairs_1, 4, iit_gate_out_1
+iit_gate_out_1, 4, finish
+
+

@@ -1,0 +1,1 @@
+g++ -o transpiler transpiler.cpp algebraic.cpp bitwise.cpp conditionals.cpp io.cpp utils.cpp

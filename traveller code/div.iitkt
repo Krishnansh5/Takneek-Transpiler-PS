@@ -1,0 +1,6 @@
+start, 0, hall_12
+hall_2, 0, mt_1_3
+mt_1_3, 0, kd_1
+kd_1, 0, kd_2
+kd_2, 0, oat_stage[1]
+oat_stage, 1, finish

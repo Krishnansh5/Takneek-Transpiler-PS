@@ -1,0 +1,17 @@
+start, 0, rm_2
+rm_2, 0, pronite_2
+pronite_2, 0, kd_2
+kd_2, 0, events_1
+events_1_t, 0, rm_1
+rm_1, 0, oat_stage[1]
+events_1_f, 0, kd_1
+kd_1, 0, events_1
+oat_stage, 1, iit_gate_out_1
+iit_gate_out_1, 1, rm_1
+rm_1, 1, events_1
+events_1_f, 1, oat_stage[0]
+events_1_t, 1, kd_1
+kd_1, 1, oat_stage[1]
+oat_stage, 2, kd_1
+kd_1, 2, oat_stage[1]
+oat_stage, 3, finish
